@@ -4,5 +4,10 @@ public class Main {
         obj1.notaFinal();
         obj1.dadosAluno();
         obj1.passou();
+
+        Cliente obj2 = new Cliente(1, 1, "Camilo", 10);
+        obj2.realizarDeposito(10);
+        obj2.realizarSaque(15);
+        obj2.info();
     }
 }
